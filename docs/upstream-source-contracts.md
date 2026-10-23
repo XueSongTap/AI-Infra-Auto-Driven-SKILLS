@@ -21,7 +21,7 @@ across models. The fusion catalog carries caller eligibility and format
 examples; detailed model PR reviews remain in the model-history dossiers with
 their original review dates.
 
-- [Five integration PR dossiers](../model-pr-optimization-history/sglang/deepseek-v4/README.en.md#reviewed-kernel-integrations-2026-09-22)
+- [Five integration PR dossiers](https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/blob/160426a642168d87e7f2f9190bf99470cfb4c8cb/model-pr-optimization-history/sglang/deepseek-v4/README.en.md#reviewed-kernel-integrations-2026-09-22)
   cover DeepGEMM sparse candidate logits, DSA top-k v2, dual raw/page output,
   the DeepSelect BF16 consumer and FlashMLA FP8/FP4 KV layouts. Full diffs and
   current callers were inspected separately; obsolete opt-in flags are identified.
@@ -32,7 +32,7 @@ their original review dates.
   records exact row ranges, backend/parallelism guards, BF16 boundaries and
   which epilogues include RMSNorm or quantization.
 - #39704 and #39957 are now merged into main; #39941 was folded into #39704.
-  The [model history](../model-pr-optimization-history/sglang/deepseek-v4/README.en.md#historical-profiling-and-optimization-evidence)
+  The [model history](https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/blob/160426a642168d87e7f2f9190bf99470cfb4c8cb/model-pr-optimization-history/sglang/deepseek-v4/README.en.md#historical-profiling-and-optimization-evidence)
   retains historical experiment context and distinguishes inspected revisions.
 
 ## Profiler control and output
@@ -108,5 +108,5 @@ model dossiers and GPU smoke tables retain their original dates; updating this
 page does not re-audit all their PRs or rerun their models. Use
 [general dispatch principles](../skills/llm-torch-profiler-analysis/references/heuristics.md#establish-dispatch-and-numerical-contracts)
 for interpretation and
-[benchmark validation](../skills/llm-serving-auto-benchmark/references/paired-validation.md)
+[benchmark validation](https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/blob/160426a642168d87e7f2f9190bf99470cfb4c8cb/skills/llm-serving-auto-benchmark/references/paired-validation.md)
 for performance/accuracy experiments.

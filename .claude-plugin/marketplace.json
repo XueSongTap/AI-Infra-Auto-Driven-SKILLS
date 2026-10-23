@@ -1,6 +1,6 @@
 {
   "name": "ai-infra-auto-driven-skills",
-  "description": "Agent-ready LLM serving, SGLang model Day-0 support, profiling, capacity, incident triage, architecture, PR-history, and explainer-video skills.",
+  "description": "Training-oriented profiler, layer-breakdown, FLOPs/MFU, and architecture-diagram skills (fork of BBuf/AI-Infra-Auto-Driven-SKILLS).",
   "owner": {
     "name": "BBuf",
     "url": "https://github.com/BBuf"
@@ -9,10 +9,10 @@
     {
       "name": "ai-infra-auto-driven-skills",
       "source": "./",
-      "description": "LLM serving benchmarks, SGLang model Day-0 support, profiling, code review, prod incident triage, PR-history dossiers, and SGLang explainer videos.",
-      "version": "0.10.0",
+      "description": "Torch profiler triage, layer/kernel breakdowns, Perfetto layer tracks, FLOPs/MFU estimates, and model architecture diagrams.",
+      "version": "0.11.0",
       "category": "ai-infra",
-      "tags": ["sglang", "day0", "vllm", "tensorrt-llm", "benchmarks", "profiler", "kernel", "moe", "llm-serving", "video"]
+      "tags": ["training", "profiler", "perfetto", "kernel", "flops", "mfu", "moe", "architecture"]
     }
   ]
 }

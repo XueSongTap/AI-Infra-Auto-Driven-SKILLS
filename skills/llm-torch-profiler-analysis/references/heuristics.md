@@ -36,7 +36,7 @@ Apply these principles to every model and backend. Use the
    residual mixes and quantization. Equivalent algebra can round differently
    before FMA or BF16 conversion. Test the original rounding contract, integer
    indices and graph replay, then use the
-   [paired validation protocol](../../llm-serving-auto-benchmark/references/paired-validation.md).
+   [paired validation protocol](https://github.com/BBuf/AI-Infra-Auto-Driven-SKILLS/blob/160426a642168d87e7f2f9190bf99470cfb4c8cb/skills/llm-serving-auto-benchmark/references/paired-validation.md).
    Task accuracy cannot validate an unused kernel; nonsignificance is not
    evidence of equivalence. Attribute a score change only after an ablation.
 8. Revalidate layer anchors after fusion or speculation changes launch counts.
